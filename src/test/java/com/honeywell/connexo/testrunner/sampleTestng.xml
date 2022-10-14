@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ConnexoSmoke" parallel="none" thread-count="2">
+<!-- <test name= "SampleLogin" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="login.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test> -->
+<test name= "KeyPairsTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/CertificateManagement/KeyPairs.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+</suite>

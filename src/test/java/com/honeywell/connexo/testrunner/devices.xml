@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ConnexoRegressionSuiteMulistSenises" parallel="none" thread-count="3">
+<test name= "AddDevice" preserve-order="false">
+<classes>
+<parameter name="FeatureName" value="ConnexoMultiSense/Devices/addDevice.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+</suite>

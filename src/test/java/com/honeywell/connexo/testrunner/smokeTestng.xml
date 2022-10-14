@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ConnexoSmoke" parallel="none" thread-count="2">
+<test name= "CalendarTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/Calendars/CalendarsBasicTest.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+ 
+<test name= "ProcessesTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/Processes/ProcessesBasicTest.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "WorkGroupsTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/UserManagement/WorkGroupsBasicTest.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "ImportServicesTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/DataExchange/ImportServices.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "RolesTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/UserManagement/Roles.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "ReadingTypesTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/ReadingTypesManagement/ReadingTypes.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "TaskOverviewTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/ApplicationServer/TaskOverview.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "RelativePeriodTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/RelativePeriods/RelativePeriods.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "WebServicesEndPointTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/WebServices/WebServicesEndPoint.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "CustomAttributeSetTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/CustomAttributeSet/CustomAttributeSet.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "DataPurgeSettingsTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/DataPurge/DataPurge.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+
+<test name= "UserDirectoryTest" preserve-order="true">
+<classes>
+<parameter name="FeatureName" value="ConnexoAdmin/Administration/UserManagement/UserDirectory.feature"/>
+<parameter name="RunAgainst" value="DEV"/>
+<parameter name="Browser" value="Chrome"/>
+<parameter name="UserName" value="root"/>
+<parameter name="Password" value="root"/>
+<parameter name="MailList" value="Dileep.Mothe@honeywell.com"/>
+<class name="com.honeywell.connexo.runner.CucumberRunner"/>
+</classes>
+</test>
+</suite>
